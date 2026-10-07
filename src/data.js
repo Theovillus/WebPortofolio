@@ -8,7 +8,7 @@ export const profile = {
   email: "theovillus2007@gmail.com",
   github: "https://github.com/Theovillus",
   linkedin: "https://www.linkedin.com/in/theovillus-roringkon-678220325/?isSelfProfile=true",
-  web3formsKey: "ISI_ACCESS_KEY_WEB3FORMS", // daftar gratis di web3forms.com
+  web3formsKey: "80add209-76a0-4753-a62d-93cdb1a2475e", // daftar gratis di web3forms.com
   stack: ["React", "JavaScript", "Tailwind CSS"],
 };
 
