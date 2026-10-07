@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-mute: var(--mute);
+  --color-accent: var(--accent);
+  --font-display: "Sora", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+:root { --bg:#0b1730; --card:#12213f; --line:#22345c; --ink:#f1f5fb; --mute:#93a4c3; --accent:#4db8ff; }
+:root.light { --bg:#f4f7fc; --card:#ffffff; --line:#d6dfee; --ink:#0b1730; --mute:#51627f; --accent:#0a74c9; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-sans); transition: background .3s, color .3s; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
