@@ -36,7 +36,7 @@ export const projects = [
    {
     title: "NutriCent App",
     category: "Mobile App",
-    problem: "Menampilkan prakiraan cuaca 5 hari dengan grafik suhu supaya mudah dibandingkan antar kota.",
+    problem: "Nutricent is a nutrition and budget management application designed to help users maintain a healthy diet according to their daily calorie targets (BMR/TDEE) while tailoring menu recommendations to stay within their monthly meal budget.",
     role: "Membangun komponen grafik dan fetch data dari API cuaca.",
     tech: ["Kotlin", "Recharts"],
     image: "/MAP.jpg",
